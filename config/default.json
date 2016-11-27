@@ -1,6 +1,6 @@
 {
   "twitter": {
-    "url": "https://api.twitter.com",
+    "url": "https://api.twitter.com/",
     "auth": {
       "Consumer_Key": "f9cpTGIRFv5Z5Dw3VzkQA13xP",
       "Consumer_Secret": "znHnGXbu2YgCCN7f3QbudAyVhV4jVLednMqKv9Qng6sXdFY2lp"

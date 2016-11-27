@@ -12,7 +12,7 @@ var twitter = require("./twitter_service/routes.js");
 //setting Middlewares
 app.use(bodyParser.json());
 app.use(morgan('combined'));
-app.use(express.static('client'));
+app.use(express.static('./client'));
 
 //setting views
 app.set('views', './views');
