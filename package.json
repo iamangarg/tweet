@@ -1,0 +1,26 @@
+{
+  "name": "kayako",
+  "version": "1.0.0",
+  "description": "Twitter app for kayako",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "base-64": "^0.1.0",
+    "body-parser": "^1.15.2",
+    "config": "^1.24.0",
+    "express": "^4.14.0",
+    "install": "^0.8.2",
+    "jade": "^1.11.0",
+    "lodash": "^4.17.2",
+    "log4js": "^1.0.1",
+    "morgan": "^1.7.0",
+    "npm": "^4.0.2",
+    "promise": "^7.1.1",
+    "request": "^2.79.0",
+    "utf8": "^2.1.2"
+  }
+}
