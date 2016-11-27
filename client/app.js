@@ -1,5 +1,5 @@
 "use strict";
-$( document ).ready(function() {
+$(document).ready(function () {
     var tweets = new twitter("#custserv");
-    tweets.loadTweets("#tweets",true);
+    tweets.loadTweets("#tweets", true);
 });
