@@ -4,7 +4,9 @@
   "description": "Twitter app for kayako",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "scripts": {
+      "start": "export NODE_ENV=prod; node ./server.js;"
+    }
   },
   "author": "",
   "license": "ISC",

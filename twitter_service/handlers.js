@@ -1,3 +1,4 @@
+"use strict";
 var request = require('request'),
     endPoints = require("./endpoint.js"),
     utils = require("./utility.js"),

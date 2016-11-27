@@ -1,3 +1,4 @@
+"use strict";
 function twitter (hashtag,retweeted){
     this.api = "/twitter/search";
     this.hashTag = hashtag;
