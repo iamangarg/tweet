@@ -20,7 +20,7 @@ app.set('view engine', 'jade');
 
 //defining node port and ENV in case developer doesn't define them
 process.env.NODE_ENV = process.env.NODE_ENV || "config";
-app.set('port', process.env.NODE_PORT);
+app.set('port', process.env.NODE_PORT || process.env.PORT);
 
 
 //attaching routes to the app
